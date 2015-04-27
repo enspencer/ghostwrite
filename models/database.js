@@ -1,4 +1,5 @@
 var pg = require('pg');
+// @todo change this to process.env.DATABASE_URL
 var connectionString = "postgres://emmaspencer:cushings@localhost/ghostwriteio_development";
 
 var client = new pg.Client(connectionString);

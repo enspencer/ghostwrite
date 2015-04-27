@@ -7,7 +7,7 @@ var connectionString = "postgres://emmaspencer:cushings@localhost/ghostwriteio_d
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../views', 'index.html'));
+  res.sendFile(path.join(__dirname, '../public/views', 'index.html'));
 });
 
 /* GET letter_types */
